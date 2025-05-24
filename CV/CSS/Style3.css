@@ -1,0 +1,182 @@
+:root {
+  --blanco: #ffffff;
+  --oscuro: #121211;
+  --primario: #ffc107;
+  --secundario: #0097a7;
+  --gris: #757575;
+  --grisClaro: #dfe9f3;
+}
+
+body {
+  font-size: 16px;
+  font-family: 'Krub', sans-serif;
+}
+
+
+body {
+  background-color: var(--grisClaro);
+}
+
+.texto{
+  font-size: 20px;
+}
+
+.titulos{
+margin-left: 650px;
+
+}
+
+.titulo {
+  font-size: 3rem;
+  text-align: center;
+  margin-top: 2rem;
+}
+
+html {
+  font-size: 62.5%;
+  box-sizing: border-box;
+  scroll-snap-type: y mandatory;
+}s
+
+body {
+  background-color: rgb(rgb(142, 238, 245), rgb(104, 180, 231), blue);
+
+}
+
+/* Navegacion Principal */
+.nav-bg {
+  background-color: var(--secundario);
+}
+
+.navegacion-principal {
+  display: flex;
+  flex-direction: column;
+}
+
+@media (min-width: 768px) {
+  .navegacion-principal {
+    flex-direction: row;
+     gap: 20rem;
+     margin-left: 350px;
+  }
+}
+
+.navegacion-principal a {
+  display: inline-block;
+  padding: 1rem;
+  font-size: 2rem;
+  font-weight: 700;
+  color: var(--blanco);
+  text-decoration: none;
+}
+
+
+.navegacion-principal a:hover {
+  background-color: var(--primario);
+  color: var(--oscuro);
+}
+
+/************/
+
+.icons {
+  display: flex;
+  justify-content: center;
+  gap: 1.5rem;
+  margin: 40px 0;
+}
+
+.icons li {
+  list-style: none;
+}
+
+.icons a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: var(--gris);
+  color: var(--blanco);
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: background 0.3s ease-in-out, color 0.3s ease-in-out, border-color 0.3s ease-in-out;
+  text-decoration: none;
+  border: 2px solid white; 
+}
+
+.icons a:hover {
+  background: var(--primario);
+  color: var(--oscuro);
+  border-color: var(--oscuro); 
+}
+
+
+.contacto{
+  padding: 30px;
+  border-radius: 1rem;
+  margin: 50px;
+}
+
+/** Contacto **/
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%); 
+    margin: 0 auto;
+}
+
+.formulario {
+    background-color: var(--gris);
+    width: min(60rem, 100%); 
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+
+.mail{
+    margin-left: 50px;
+
+}
+
+.icono-correo a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 50px;
+  background: var(--gris);
+  color: var(--blanco);
+  font-size: 2rem;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  text-decoration: none;
+  margin: 2rem auto;
+  border: 2px solid white; 
+}
+
+.icono-correo a:hover {
+  background: var(--primario);
+  color: var(--oscuro);
+  border-color: var(--oscuro); 
+}
+
+
+
+
+/** Footer **/
+.footer {
+    text-align: center;
+    margin-top: 200px;
+}
